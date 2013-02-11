@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main(int argc, char *argv[]) {
+  float numeroA,numeroB,suma;
+	cout<<"Ingresa un numero:\n";
+	cin>> numeroA;
+	cout<<"\nIngresa el siguiente numero:\n";
+	cin>> numeroB;
+	cout<<"El resultado es: \n";
+	suma=numeroA+numeroB;
+	cout<<suma;
+	
+	return 0;
+}
+
